@@ -1,0 +1,92 @@
+/* line 4, ../../app/assets/stylesheets/sessions.scss */
+html body {
+  font-size: 0.88em;
+  font-family: arial, helvetica, clean, sans-serif;
+  text-align: center;
+  color: #FFF;
+  background-color: #3e5469;
+}
+/* line 11, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper {
+  width: 960px;
+  margin: 10px auto 10px auto;
+  text-align: left;
+  color: #454545;
+}
+/* line 17, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper fieldset {
+  clear: both;
+}
+/* line 20, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper fieldset label {
+  font-size: 15px;
+  font-weight: bold;
+  margin: 5px 0px 10px 0px;
+  display: block;
+}
+/* line 27, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper fieldset #remember_me {
+  padding: 5px;
+}
+/* line 30, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper fieldset #remember_me input[type=checkbox] {
+  margin: 5px 5px 0px 0px;
+  float: left;
+}
+/* line 36, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper fieldset input[type=submit] {
+  background-image: none;
+  border: 1px solid #ccc;
+  margin: 5px 0px;
+  font-size: 16px;
+  padding: 6px;
+}
+/* line 44, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper fieldset input[type=text], html body #wrapper fieldset input[type=password] {
+  width: 460px;
+  background-image: url("/images/themes/clover/input_bg.jpg ");
+  background-repeat: repeat-x;
+  border: 1px solid #BADB89;
+  padding: 6px;
+}
+/* line 53, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper #logo {
+  background-image: url("/images/themes/clover/login-bg-logo.jpg");
+  background-repeat: no-repeat;
+  display: block;
+  width: 461px;
+  height: 69px;
+  margin: 0px auto 5px;
+  text-indent: -999px;
+}
+/* line 63, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper #login_form {
+  background-image: url("/images/themes/clover/login-main-bg.png ");
+  background-repeat: repeat-x;
+  padding: 35px 25px;
+  background-color: #CCC;
+  width: 470px;
+  margin: 10px auto 0px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 73, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper .more_options {
+  width: 520px;
+  margin: 10px auto;
+}
+/* line 77, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper .more_options a {
+  color: #FFF;
+  text-decoration: none;
+  font-weight: lighter;
+  font-size: 13px;
+}
+/* line 84, ../../app/assets/stylesheets/sessions.scss */
+html body #wrapper .more_options a:hover {
+  text-decoration: underline;
+}

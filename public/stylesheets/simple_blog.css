@@ -1,0 +1,224 @@
+/* line 5, ../../app/assets/stylesheets/simple_blog.scss */
+html h1, html h2, html h3, html h4, html h5, html h6 {
+  color: #495961;
+  text-shadow: 1px 1px 0 #FFF;
+  font-weight: normal;
+}
+/* line 11, ../../app/assets/stylesheets/simple_blog.scss */
+html body {
+  background: url("/images/themes/simple_blog/bg_pattern.png") repeat scroll 0 0 #333333;
+  font: 13.34px helvetica, arial, free-sans, clean, sans-serif;
+  /* General form styles */
+}
+/* line 15, ../../app/assets/stylesheets/simple_blog.scss */
+html body #wrapper {
+  margin: 10px auto;
+  width: 960px;
+}
+/* line 20, ../../app/assets/stylesheets/simple_blog.scss */
+html body #nav, html body #content_wrapper {
+  background-color: #FFF;
+  margin: 10px auto;
+  width: 960px;
+  border: 1px solid #999;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  -moz-box-shadow: black -2px 2px 5px 2px;
+  -webkit-box-shadow: black -2px 2px 5px 2px;
+  -o-box-shadow: black -2px 2px 5px 2px;
+  box-shadow: black -2px 2px 5px 2px;
+}
+/* line 30, ../../app/assets/stylesheets/simple_blog.scss */
+html body #nav {
+  margin: 10px auto 25px auto;
+  padding: 10px 25px;
+  top: 0;
+  width: 910px;
+  font-size: 12px;
+  font-weight: bold;
+  position: relative;
+}
+/* line 39, ../../app/assets/stylesheets/simple_blog.scss */
+html body #nav a {
+  color: #333;
+  text-decoration: none;
+  padding: 5px;
+}
+/* line 45, ../../app/assets/stylesheets/simple_blog.scss */
+html body #nav a:hover {
+  text-decoration: underline;
+}
+/* line 49, ../../app/assets/stylesheets/simple_blog.scss */
+html body #nav #search_box {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+/* line 54, ../../app/assets/stylesheets/simple_blog.scss */
+html body #nav #search_box input {
+  border: 1px solid #BBB;
+  padding: 3px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -o-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+}
+/* line 64, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper p {
+  color: #666;
+  margin: 1em 0;
+}
+/* line 69, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper a {
+  font-size: 12px;
+  color: #4183C4;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* line 76, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper a:hover {
+  text-decoration: underline;
+}
+/* line 78, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content {
+  padding: 15px;
+  width: 70%;
+  float: left;
+}
+/* line 83, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content h1 {
+  font-size: 30px;
+  border-bottom: 1px solid #EEE;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+/* line 91, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content h2 {
+  font-size: 18px;
+  font-weight: bold;
+}
+/* line 96, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content .article {
+  padding: 10px 5px;
+  border-bottom: 1px solid #EEE;
+}
+/* line 101, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content .article.last_article {
+  border-bottom: 0px;
+}
+/* line 105, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content #pagination {
+  margin-top: 25px;
+}
+/* line 108, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #content #pagination a {
+  font-weight: normal;
+  color: #333;
+}
+/* line 115, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar {
+  width: 20%;
+  display: block;
+  border-left: 0.1em solid #EEE;
+  padding: 15px;
+  float: left;
+}
+/* line 122, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li {
+  list-style: none;
+}
+/* line 123, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul.icons li {
+  margin-left: 25px;
+}
+/* line 125, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.twitter {
+  list-style-image: url("/images/themes/simple_blog/icons/16/twitter.png");
+}
+/* line 126, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.facebook {
+  list-style-image: url("/images/themes/simple_blog/icons/16/facebook.png");
+}
+/* line 127, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.myspace {
+  list-style-image: url("/images/themes/simple_blog/icons/16/myspace.png");
+}
+/* line 128, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.youtube {
+  list-style-image: url("/images/themes/simple_blog/icons/16/youtube.png");
+}
+/* line 129, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.msn {
+  list-style-image: url("/images/themes/simple_blog/icons/16/msn.png");
+}
+/* line 130, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.gtalk {
+  list-style-image: url("/images/themes/simple_blog/icons/16/gtalk.png");
+}
+/* line 131, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar ul li.skype {
+  list-style-image: url("/images/themes/simple_blog/icons/16/skype.png");
+}
+/* line 133, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #sidebar h2 {
+  font-weight: bold;
+  font-size: 18px;
+  margin: 15px 0px 5px;
+}
+/* line 140, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #footer {
+  width: 960px;
+  color: #333;
+  text-shadow: 2px 2px #000;
+  position: absolute;
+}
+/* line 146, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #footer p {
+  color: #fff;
+  font-weight: bold;
+}
+/* line 151, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #footer a {
+  font-size: 1em;
+}
+/* line 152, ../../app/assets/stylesheets/simple_blog.scss */
+html body #content_wrapper #footer a:hover {
+  text-decoration: none;
+}
+/* line 156, ../../app/assets/stylesheets/simple_blog.scss */
+html body fieldset {
+  padding: 1em 5em;
+}
+/* line 160, ../../app/assets/stylesheets/simple_blog.scss */
+html body fieldset form label {
+  display: block;
+  font-size: 16px;
+  margin: 8px 0px;
+}
+/* line 166, ../../app/assets/stylesheets/simple_blog.scss */
+html body label small {
+  font-size: 11px;
+  color: #666;
+}
+/* line 171, ../../app/assets/stylesheets/simple_blog.scss */
+html body fieldset form input[type=text], html body fieldset form textarea {
+  border: 2px solid #BBB;
+  padding: 6px 3px;
+}
+/* line 176, ../../app/assets/stylesheets/simple_blog.scss */
+html body fieldset form input[type=text] {
+  width: 70%;
+}
+/* line 180, ../../app/assets/stylesheets/simple_blog.scss */
+html body fieldset form textarea {
+  width: 90%;
+  height: 150px;
+  margin-bottom: 5px;
+}

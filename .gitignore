@@ -5,13 +5,11 @@ doc/api
 doc/app
 db/*.sqlite3
 .sass-cache/
-public/stylesheets/*.css
 *.swp
 *~
 .DS_Store
-public/images/system
-public/javascripts/wymeditor/*
-public/system
+app/assets/stylesheets/*.css
+app/assets/javascripts/wymeditor/*
 public/.htaccess
 *.bak
 Thumbs.db

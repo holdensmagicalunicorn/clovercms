@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.0.8'
-gem 'client_side_validations', '3.0.2'
+gem 'rails', '3.1.0.rc4'
+gem 'client_side_validations', '3.1.0'
 gem 'kaminari'
 gem 'sass'
 gem 'haml-rails'
@@ -15,6 +15,12 @@ gem 'jquery-rails'
 gem 'acl9'
 gem 'capistrano'
 gem 'clovercms-dashboard', :require => 'dashboard'
+
+#asset pipeline
+gem 'json'
+gem 'sass'
+gem 'coffee-script'
+gem 'uglifier'
 
 group :development do
   gem 'metric_fu', :require => false
@@ -33,7 +39,7 @@ platforms :ruby do
   end
 
   group :production do
-    gem 'mysql2'
+    gem 'mysql2', "0.3.2"
   end
 end
 

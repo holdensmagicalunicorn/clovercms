@@ -1,0 +1,484 @@
+/* line 2, ../../app/assets/stylesheets/clover.scss */
+html body {
+  background-image: url("/images/themes/clover/html_bg.jpg");
+  background-repeat: repeat-x;
+  background-color: #3B5061;
+  font-size: .88em;
+  font-family: Arial, Helvetica, "sans-serif";
+  line-height: 1.3em;
+}
+/* line 10, ../../app/assets/stylesheets/clover.scss */
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+  font-family: "century gothic", Helvetica, Sans-serif;
+}
+/* line 14, ../../app/assets/stylesheets/clover.scss */
+html body h1 {
+  font-size: 1.12em;
+}
+/* line 15, ../../app/assets/stylesheets/clover.scss */
+html body h2 {
+  font-size: 1em;
+}
+/* line 16, ../../app/assets/stylesheets/clover.scss */
+html body h3 {
+  font-size: .93em;
+}
+/* line 18, ../../app/assets/stylesheets/clover.scss */
+html body div.hline1 {
+  background-image: url("/images/themes/clover/hline_bg.jpg");
+  background-color: white;
+  height: 10px;
+  width: 960px;
+  overflow: hidden;
+}
+/* line 26, ../../app/assets/stylesheets/clover.scss */
+html body div.hline2 {
+  background-image: url("/images/themes/clover/hline2_bg.jpg ");
+  background-color: white;
+  height: 10px;
+  width: 960px;
+  overflow: hidden;
+}
+/* line 34, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper {
+  width: 960px;
+  margin: 10px auto;
+  text-align: left;
+}
+/* line 39, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top {
+  background: #2d2d2d url("/images/themes/clover/top_bg.jpg") no-repeat;
+  width: 960px;
+  height: 100px;
+}
+/* line 44, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #website_name {
+  display: none;
+}
+/* line 46, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation {
+  float: left;
+  display: inline;
+  width: 430px;
+  margin-left: 525px;
+  margin-top: 36px;
+}
+/* line 54, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav li {
+  float: left;
+  margin-left: 5px;
+  display: inline;
+}
+/* line 59, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav li a {
+  padding: 8px 0px;
+  display: block;
+  outline: 0;
+}
+/* line 65, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav li a, html body #wrapper #top #navigation #nav li a:active, html body #wrapper #top #navigation #nav li a:visited {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+}
+/* line 73, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #hola a {
+  width: 54px;
+  text-align: center;
+}
+/* line 78, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #hola.active a, html body #wrapper #top #navigation #nav #hola a:hover {
+  background: transparent url("/images/themes/clover/home_button.gif") no-repeat top center;
+  text-align: center;
+}
+/* line 83, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #conoce a {
+  width: 76px;
+  text-align: center;
+}
+/* line 88, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #conoce.active a, html body #wrapper #top #navigation #nav #conoce a:hover {
+  background: transparent url("/images/themes/clover/conoce_button.gif") no-repeat top center;
+  text-align: center;
+}
+/* line 93, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #crece a, html body #wrapper #top #navigation #nav #login a {
+  width: 64px;
+  text-align: center;
+}
+/* line 98, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #crece.active a, html body #wrapper #top #navigation #nav #crece a:hover, html body #wrapper #top #navigation #nav #login.active a, html body #wrapper #top #navigation #nav #login a:hover {
+  background: transparent url("/images/themes/clover/crece_button.gif") no-repeat top center;
+  text-align: center;
+}
+/* line 103, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #negocio a {
+  width: 110px;
+  text-align: center;
+}
+/* line 108, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #negocio.active a, html body #wrapper #top #navigation #nav #negocio a:hover {
+  background: transparent url("/images/themes/clover/negocio_button.gif") no-repeat top center;
+  text-align: center;
+}
+/* line 113, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #contacto a, html body #wrapper #top #navigation #nav #live_chat a {
+  width: 93px;
+  text-align: center;
+}
+/* line 118, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #top #navigation #nav #contacto.active a, html body #wrapper #top #navigation #nav #contacto a:hover, html body #wrapper #top #navigation #nav #live_chat.active a, html body #wrapper #top #navigation #nav #live_chat a:hover {
+  background: transparent url("/images/themes/clover/contacto_button.gif") no-repeat top center;
+  text-align: center;
+}
+/* line 126, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner {
+  background: transparent url("/images/themes/clover/banner_bg.jpg") no-repeat;
+  background-color: #558C15;
+  height: 280px;
+}
+/* line 131, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #intro {
+  color: #F5F5F5;
+  float: left;
+  display: inline;
+  width: 330px;
+  font-size: 1.3em;
+  margin: 60px 0px 0px 70px;
+  text-shadow: #4F5A43 2px 2px;
+}
+/* line 140, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #intro h1, html body #wrapper #banner #intro h3 {
+  line-height: 1.3em;
+  margin-bottom: 20px;
+}
+/* line 146, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider {
+  width: 560px;
+  float: left;
+  line-height: 1em;
+}
+/* line 151, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider #slider_left {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+/* line 156, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider #slider_right {
+  margin-left: 10px;
+}
+/* line 158, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider #slider_left, html body #wrapper #banner #slider #slider_right {
+  float: left;
+  margin-top: 120px;
+  display: inline;
+}
+/* line 164, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .container {
+  margin-top: 40px;
+  width: 400px;
+  height: 190px;
+  border: 10px solid white;
+  float: left;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+}
+/* line 175, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+/* line 180, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides .preview_intro {
+  padding-top: 5px;
+  height: 50px;
+}
+/* line 185, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides p {
+  padding: 2px 10px;
+  font-size: 12px;
+}
+/* line 190, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides .view_project {
+  float: right;
+  display: inline;
+  width: 150px;
+  padding-right: 10px;
+}
+/* line 198, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides > div {
+  position: absolute;
+  top: 0;
+  width: 400px;
+  display: none;
+}
+/* line 205, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides div {
+  width: 400px;
+  background-color: #101801;
+  color: #E9E9E9;
+}
+/* line 210, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider .slides div div {
+  backgroud-color: transparent;
+}
+/* line 213, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #banner #slider ul.pagination {
+  display: none;
+}
+/* line 217, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid {
+  padding: 40px 0px;
+  overflow: hidden;
+  height: 100%;
+  background: white url("/images/themes/clover/mid_bg.jpg") repeat-x;
+}
+/* line 223, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #content, html body #wrapper #mid #column {
+  float: left;
+  display: inline;
+  margin: 0px 10px;
+}
+/* line 229, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #content {
+  width: 540px;
+  margin-left: 40px;
+  overflow: hidden;
+}
+/* line 234, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #content h1 {
+  font-family: "century gothic", Helvetica, Sans-serif;
+  font-size: 2.35em;
+  color: #4C4B4B;
+  border-bottom: 1px solid #CBCBCB;
+  margin-bottom: 20px;
+  line-height: 1.3em;
+}
+/* line 243, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #content p {
+  padding: 10px 0px;
+}
+/* line 245, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #content .photo, html body #wrapper #mid #content img {
+  background-color: white;
+  padding: 5px;
+  border: 1px solid #D5D5D5;
+}
+/* line 251, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #content .hl1 {
+  color: #53860E;
+}
+/* line 254, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column {
+  width: 230px;
+  margin-left: 80px;
+}
+/* line 258, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column h2.sb_header {
+  font-size: 14px;
+  line-height: 14px;
+  text-align: center;
+  padding: 11px 0px 11px 0px;
+  color: #373737;
+  background-image: url("/images/themes/clover/side_header.gif");
+  background-repeat: no-repeat;
+}
+/* line 268, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column p {
+  padding: 10px 20px;
+}
+/* line 270, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column h2 {
+  font-size: 16px;
+  color: #4C4B4B;
+}
+/* line 275, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column .sidebar {
+  background-image: url("/images/themes/clover/side_bg.gif");
+  background-repeat: repeat-y;
+  color: white;
+}
+/* line 280, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column .sidebar ul, html body #wrapper #mid #column .sidebar p, html body #wrapper #mid #column .sidebar ol {
+  padding: 10px 20px;
+}
+/* line 282, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column .sidebar ul.services li {
+  margin: 0px;
+  padding: 0px;
+  border: 1px solid #79AF15;
+  list-style-image: none;
+}
+/* line 288, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column .sidebar ul.services li a {
+  line-height: 14px;
+  font-size: 14px;
+  padding: 5px;
+  display: block;
+  text-decoration: underline;
+  color: white;
+}
+/* line 297, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column .sidebar ul.services li a:hover {
+  line-height: 14px;
+  font-size: 14px;
+  background-image: url("/images/themes/clover/sb_item_bg.gif");
+  background-repeat: repeat-x;
+  background-color: #619504;
+  display: block;
+  padding: 3px 5px 5px 10px;
+  border: 1px solid #578702;
+  text-decoration: none;
+}
+/* line 311, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #mid #column .sidebar_bottom {
+  background-image: url("/images/themes/clover/side_bottom.gif");
+  height: 5px;
+  line-height: 1px;
+  font-size: 1px;
+  background-repeat: no-repeat;
+}
+/* line 321, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer {
+  background: #2d2d2d url("/images/themes/clover/footer_bg.jpg");
+  overflow: hidden;
+  height: 100%;
+  color: #ABABAB;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+/* line 329, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer .hl1 {
+  color: #7FB919;
+}
+/* line 330, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer #suscribe {
+  color: #FEFEFE;
+  background-color: #75A51A;
+  border: 1px solid #A2C628;
+}
+/* line 336, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer .b360 {
+  width: 280px;
+  float: left;
+  display: inline;
+  background-image: url("/images/themes/clover/footer_separator.gif");
+  background-repeat: no-repeat;
+  background-position: 260px 5px;
+  margin: 0px 10px;
+  padding: 30px 0px;
+}
+/* line 346, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer .b360 ul, html body #wrapper #footer .b360 ol, html body #wrapper #footer .b360 p, html body #wrapper #footer .b360 form, html body #wrapper #footer .b360 h1, html body #wrapper #footer .b360 h2, html body #wrapper #footer .b360 h3, html body #wrapper #footer .b360 h4, html body #wrapper #footer .b360 h5, html body #wrapper #footer .b360 h6 {
+  margin-right: 60px;
+}
+/* line 348, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer .b360 h2 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #565656;
+  margin-bottom: 10px;
+}
+/* line 357, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer #contact_box {
+  margin-left: 60px;
+}
+/* line 359, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer #newsletter_box {
+  background-image: none;
+  margin-right: 60px;
+  position: absolute;
+}
+/* line 366, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer #newsletter label {
+  padding: 7px 0px;
+  display: block;
+  width: 180px;
+}
+/* line 372, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer #newsletter .input_text {
+  width: 198px;
+  background-color: #262626;
+  border: 1px solid #3A3A3A;
+  color: #ABABAB;
+  padding: 4px 10px;
+  display: inline;
+  background-image: none;
+}
+/* line 383, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer a, html body #wrapper #footer a:active, html body #wrapper #footer a:visited {
+  color: #7FB919;
+}
+/* line 386, ../../app/assets/stylesheets/clover.scss */
+html body #wrapper #footer2 {
+  background-image: url("../../images/themes/clover/footer_bottom.gif ");
+  background-repeat: no-repeat;
+  color: white;
+  padding: 25px 20px 10px;
+}
+/* line 397, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #banner {
+  background-image: url("/images/themes/clover/banner2_bg.jpg");
+  height: 115px;
+  overflow: hidden;
+  line-height: 1.5em;
+}
+/* line 403, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #banner h1, html body.section #wrapper #banner h2 {
+  color: #E7E7E7;
+  margin-left: 72px;
+  font-weight: bold;
+}
+/* line 409, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #banner h1 {
+  font-size: 32px;
+  margin-top: 30px;
+}
+/* line 414, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #banner h2 {
+  font-size: 16px;
+}
+/* line 417, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #mid {
+  padding-bottom: 0px;
+  background-image: url("/images/themes/clover/separator_style2.jpg");
+  background-repeat: repeat-y;
+  background-position: 302px 0px;
+  padding: 0px;
+  background-color: white;
+}
+/* line 425, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #mid #imid {
+  background-image: url("/images/themes/clover/mid_style2.jpg");
+  background-repeat: no-repeat;
+  height: 100%;
+  overflow: hidden;
+  padding: 40px 0px;
+}
+/* line 432, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #mid #imid #column {
+  width: 281px;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 20px;
+}
+/* line 438, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #mid #imid #column h2.sb_header {
+  background-image: url("/images/themes/clover/sidebar2_top.jpg");
+  width: 258px;
+}
+/* line 443, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #mid #imid #column .sidebar {
+  background-image: url("/images/themes/clover/sidebar2_bg.jpg");
+  width: 258px;
+  padding-bottom: 10px;
+}
+/* line 449, ../../app/assets/stylesheets/clover.scss */
+html body.section #wrapper #mid #imid #column .sidebar_bottom {
+  background-image: url("/images/themes/clover/sidebar2_bottom.jpg");
+  height: 9px;
+}

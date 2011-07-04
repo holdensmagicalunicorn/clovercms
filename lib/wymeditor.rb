@@ -4,7 +4,7 @@ class Wymeditor
   WYMEDITOR_PATH      = File.join Rails.root, 'vendor', 'wymeditor'
   WYMEDITOR_SRC_PATH  = File.join WYMEDITOR_PATH, 'src', 'wymeditor'
   BUILD_PATH          = File.join WYMEDITOR_PATH, 'build', 'build'
-  DESTINATION_PATH    = File.join Rails.root, 'public', 'javascripts', 'wymeditor'
+  DESTINATION_PATH    = File.join Rails.root, 'app', 'assets', 'javascripts', 'wymeditor'
 
   def self.compile_editor
     command = "cd #{WYMEDITOR_PATH} && make"
